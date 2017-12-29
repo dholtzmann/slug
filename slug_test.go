@@ -3,7 +3,7 @@ package slug
 import (
 	"net/url"
 	"testing"
-	fv "turnpike/formvalidator3"
+	fv "github.com/dholtzmann/formvalidator"
 )
 
 // expectation bool for whether the function will be valid, return a nil error

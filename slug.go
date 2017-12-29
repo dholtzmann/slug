@@ -2,10 +2,11 @@ package slug
 
 import (
 	"errors"
-	"github.com/rainycape/unidecode" // external dependency
 	"regexp"
 	"strings"
 	"unicode"
+
+	"github.com/rainycape/unidecode" // external dependency
 )
 
 var allowedSpecialChars, disallowedChars, multipleDashes *regexp.Regexp
